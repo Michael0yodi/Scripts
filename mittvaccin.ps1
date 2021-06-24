@@ -1,7 +1,7 @@
 ### Quick and dirty script to read the mittvaccin.se open API's
 
-   $sites=@('https://booking-api.mittvaccin.se/clinique/1352/appointments/11916/slots/','https://booking-api.mittvaccin.se/clinique/1351/appointments/11924/slots/',
-   'https://booking-api.mittvaccin.se/clinique/1350/appointments/11941/slots/')
+$sites=@('https://booking-api.mittvaccin.se/clinique/1352/appointments/11916/slots/','https://booking-api.mittvaccin.se/clinique/1351/appointments/11924/slots/',
+         'https://booking-api.mittvaccin.se/clinique/1350/appointments/11941/slots/')
 
 $collection = @()
 $today=Get-Date
